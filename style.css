@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    color: skyblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+h1{
+    color: lightblue;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+button{
+    background-color: skyblue;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: lightblue;
+}
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+}
+input[type="text"]:focus{
+    border-color: lightblue;
+    outline: none;
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    width: 200px;
+}
